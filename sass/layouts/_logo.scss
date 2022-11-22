@@ -1,9 +1,9 @@
-.site-logo {
+.logo {
     display: flex;
     align-items: center;
 }
 
-.logo-web {
+.logo__logo-web {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -12,11 +12,20 @@
     color: #2196F3;
 }
 
-.logo-studio {
+.logo__logo-studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+}
+.logo__logo-web--wite {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.logo__logo-studio--wite {
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }

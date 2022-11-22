@@ -1,22 +1,22 @@
-.feach {
+.feachures {
     padding: 94px 0;
 }
 
-.card-list {
+.card-set__list {
     margin: 0;
     padding: 0;
     list-style: none;
 
     display: flex;
-    > .card-item {
+    > .card-set__item {
         flex-basis: calc(100% / 4);   
    }
-    > .card-item:not(:first-child) {
+    > .card-set__item:not(:first-child) {
         margin-left: 30px; 
 }
 }
 
-.feachures-name {
+.card-set__name {
     margin-bottom: 10px;
 
     font-weight: 700;
@@ -27,7 +27,7 @@
     color: var(--title-text-color);
 }
 
-.feachures-dsr {
+.card-set__dsr {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -35,7 +35,7 @@
     color: var(--primary-text-color);
 
 }
-.card-item-wrap {
+.card-set__wrap {
     height: 120px;
     width: 270px;
     background-color: #F5F4FA;
